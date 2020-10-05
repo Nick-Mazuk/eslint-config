@@ -1,6 +1,6 @@
 {
-    "name": "eslint-config-note",
-    "version": "1.0.0",
+    "name": "@nick-mazuk/eslint-config",
+    "version": "0.1.0",
     "description": "Shareable ESLint configs for my projects.",
     "main": "index.js",
     "scripts": {
