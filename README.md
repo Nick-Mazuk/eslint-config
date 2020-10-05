@@ -63,7 +63,7 @@ This is the easiest way to ensure ESLint is run every time you save a file, and 
 
 This config has Prettier built-in. If you use Prettier with your code editor or use a `.prettierrc` file, there will likely be conflicts. It's best to remove any `.prettierrc` files you may have and disable Prettier in your code editor.
 
-> **Rational**: this ESLint config is highly opinionated and is a living config. As best practices evolve, this config will evolve. Since Prettier is 100% fixable, that means that your code will always follow this config and therefor always follow best practices. If you override the formatting with Prettier, you forgo any future updates in regard to Prettier formatting.
+> **Rationale**: this ESLint config is highly opinionated and is a living config. As best practices evolve, this config will evolve. Since Prettier is 100% fixable, that means that your code will always follow this config and therefor always follow best practices. If you override the formatting with Prettier, you forgo any future updates in regard to Prettier formatting.
 
 ## Use without TypeScript
 
