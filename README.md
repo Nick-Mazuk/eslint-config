@@ -38,7 +38,7 @@ npm run lint
 
 ### Versions
 
-This package has configs for different scenarios.
+This package has configs for different scenarios (more coming).
 
 - NextJS: use `@nick-mazuk/eslint-config/next`
 
@@ -61,7 +61,9 @@ This is the easiest way to ensure ESLint is run every time you save a file, and 
 
 ## Use with Prettier
 
-This config has Prettier built-in. If you use prettier with your code editor or use a `.prettierrc` file, there will likely be conflicts.
+This config has Prettier built-in. If you use Prettier with your code editor or use a `.prettierrc` file, there will likely be conflicts. It's best to remove any `.prettierrc` files you may have and disable Prettier in your code editor.
+
+> **Rational**: this ESLint config is highly opinionated and is a living config. As best practices evolve, this config will evolve. Since Prettier is 100% fixable, that means that your code will always follow this config and therefor always follow best practices. If you override the formatting with Prettier, you forgo any future updates in regard to Prettier formatting.
 
 ## Use without TypeScript
 
@@ -76,7 +78,7 @@ Currently, all the configs require TypeScript. Perhaps in the future I'll create
 }
 ```
 
-> Note: when you first open the repo with this ESLint configuration, it can take up to a minute for VS Code to start linting. You'll still be able to edit files in the meantime.
+> **Note**: when you first open the repo with this ESLint configuration, it can take up to a minute for VS Code to start linting. You'll still be able to edit files in the meantime.
 
 ## What rules are enabled?
 
@@ -84,4 +86,4 @@ In short, this config runs 500+ rules (and counting). Luckily, the source code i
 
 ## I found a bug, what do I do?
 
-If you found a bug or rule conflicts, submit an issue on GitHub.
+If you found a bug or rule conflicts, [submit an issue on GitHub](https://github.com/Nick-Mazuk/eslint-config/issues).

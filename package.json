@@ -2,6 +2,14 @@
     "name": "@nick-mazuk/eslint-config",
     "version": "0.1.5",
     "description": "an eslint config for my personal projects",
+    "homepage": "https://github.com/Nick-Mazuk/eslint-config#readme",
+    "bugs": {
+        "url": "https://github.com/Nick-Mazuk/eslint-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Nick-Mazuk/eslint-config"
+    },
     "main": "index.js",
     "directories": {
         "lib": "lib"
