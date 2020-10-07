@@ -15,7 +15,10 @@
         "lib": "lib"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "eslint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+        "check-types": "tsc --noemit",
+        "lint": "npm run eslint && npm run check-types"
     },
     "author": "",
     "license": "MIT",
@@ -40,5 +43,10 @@
     "peerDependencies": {
         "eslint": ">= 7.3.0",
         "typescript": ">= 3.9.7"
+    },
+    "devDependencies": {
+        "@nick-mazuk/tsconfig": "^0.1.1",
+        "eslint": "^7.10.0",
+        "typescript": "^4.0.3"
     }
 }

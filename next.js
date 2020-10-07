@@ -8,7 +8,7 @@ module.exports = {
     extends: [require.resolve('./lib/base'), 'plugin:react/recommended', 'plugin:jsx-a11y/strict', 'prettier/react'],
     parserOptions: {
         ecmaFeatures: {
-            jsx: true, // Allows for the parsing of JSX
+            jsx: true,
         },
     },
     settings: {

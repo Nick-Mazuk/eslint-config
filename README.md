@@ -26,7 +26,9 @@ Add this to your `package.json` file:
 
 ```json
 "scripts": {
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "eslint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "check-types": "tsc --noemit",
+    "lint": "npm run eslint && npm run check-types"
 },
 ```
 
