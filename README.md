@@ -72,6 +72,24 @@ This is the easiest way to ensure ESLint is run every time you save a file, and 
 
 > **Note**: when you first open the repo with this ESLint configuration, it can take up to a minute for VS Code to start linting. You'll still be able to edit files in the meantime.
 
+## Integration with Husky (recommended)
+
+Using husky with this ESLint config (or ESLint in general) will let you lint before every commit. This is true even if you aren't using the VS Code integration above.
+
+```bash
+npm i --save-dev husky
+```
+
+Then in your package.json, add
+
+```json
+"husky": {
+    "hooks": {
+        "pre-commit": "npx lint"
+    }
+},
+```
+
 ## Use with Prettier
 
 This config has Prettier built-in. If you use Prettier with your code editor or use a `.prettierrc` file, there will likely be conflicts. It's best to remove any `.prettierrc` files you may have and disable Prettier in your code editor.
