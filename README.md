@@ -42,6 +42,7 @@ npm run lint
 
 This package has configs for different scenarios (more coming).
 
+- **React**: use `@nick-mazuk/eslint-config/react`
 - **NextJS**: use `@nick-mazuk/eslint-config/next`
 
 When using a more specific config, the base config is not needed. For instance, with NextJS, this is all that's required:
