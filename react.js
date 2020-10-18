@@ -57,6 +57,7 @@ module.exports = {
             "files": ["*.test.tsx"],
             "rules": {
                 'react/jsx-no-bind': 'off',
+                '@typescript-eslint/no-empty-function': 'off',
             }
         }
     ]
