@@ -1,6 +1,6 @@
 {
     "name": "@nick-mazuk/eslint-config",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "description": "an eslint config for my personal projects",
     "homepage": "https://github.com/Nick-Mazuk/eslint-config#readme",
     "bugs": {
