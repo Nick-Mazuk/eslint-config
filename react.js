@@ -52,4 +52,13 @@ module.exports = {
         'react/jsx-no-useless-fragment': 'error',
         'react/jsx-pascal-case': 'error',
     },
+    "overrides": [
+        {
+            "files": ["*.test.tsx"],
+            "rules": {
+                'react/jsx-no-bind': 'off',
+            }
+        }
+    ]
+   
 }
