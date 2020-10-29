@@ -4,8 +4,8 @@ module.exports = {
         commonjs: true,
         es2020: true,
     },
-    plugins: ['react', 'react-hooks', 'jsx-a11y'],
-    extends: [require.resolve('./lib/base'), 'plugin:react/recommended', 'plugin:jsx-a11y/strict', 'prettier/react'],
+    plugins: ['react', 'react-hooks', 'testing-library', 'jsx-a11y'],
+    extends: [require.resolve('./lib/base'), 'plugin:react/recommended', 'plugin:testing-library/react', 'plugin:jsx-a11y/strict', 'prettier/react'],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
