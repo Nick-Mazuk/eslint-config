@@ -45,7 +45,6 @@ module.exports = {
         'react/jsx-fragments': ['error', 'syntax'],
         'react/jsx-handler-names': 'error',
         'react/jsx-key': ['error', { checkFragmentShorthand: true }],
-        'react/jsx-no-bind': 'error',
         'react/jsx-no-comment-textnodes': 'error',
         'react/jsx-no-script-url': 'error',
         'react/jsx-no-target-blank': 'error',
