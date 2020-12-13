@@ -13,5 +13,6 @@ module.exports = {
         "cypress/no-force": "error",
         "jest/expect-expect": "off",
         "import/unambiguous": "off",
+        "promise/catch-or-return": "off",
     }
 }
