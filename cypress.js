@@ -12,7 +12,9 @@ module.exports = {
         "cypress/assertion-before-screenshot": "error",
         "cypress/no-force": "error",
         "jest/expect-expect": "off",
+        "jest/valid-expect-in-promise": "off",
         "import/unambiguous": "off",
         "promise/catch-or-return": "off",
+        "promise/always-return": "off",
     }
 }
