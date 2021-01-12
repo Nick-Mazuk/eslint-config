@@ -50,6 +50,7 @@ module.exports = {
         'react/jsx-no-target-blank': 'error',
         'react/jsx-no-useless-fragment': 'error',
         'react/jsx-pascal-case': 'error',
+        'jsx-a11y/label-has-for': 'off',
     },
     "overrides": [
         {
