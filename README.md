@@ -44,6 +44,8 @@ This package has configs for different scenarios (more coming).
 
 - **React**: use `@nick-mazuk/eslint-config/react`
 - **NextJS**: use `@nick-mazuk/eslint-config/next`
+- **NextJS**: use `@nick-mazuk/eslint-config/cypress`
+- **NextJS**: use `@nick-mazuk/eslint-config/firebase-functions`
 
 When using a more specific config, the base config is not needed. For instance, with NextJS, this is all that's required:
 
@@ -95,7 +97,7 @@ Then in your package.json, add
 
 This config has Prettier built-in. If you use Prettier with your code editor or use a `.prettierrc` file, there will likely be conflicts. It's best to remove any `.prettierrc` files you may have and disable Prettier in your code editor.
 
-> **Rationale**: this ESLint config is highly opinionated and is a living config. As best practices evolve, this config will evolve. Since Prettier is 100% fixable, that means that your code will always follow this config and therefor always follow best practices. If you override the formatting with Prettier, you forgo any future updates in regard to Prettier formatting.
+> **Rationale**: this ESLint config is highly opinionated and is a living config. As best practices evolve, this config will evolve. Since Prettier is 100% fixable, that means that your code will always follow this config and therefore always follow best practices. If you override the formatting with Prettier, you forgo any future updates in regard to Prettier formatting.
 
 ## Use without TypeScript
 
