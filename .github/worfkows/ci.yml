@@ -4,9 +4,7 @@ on: pull_request
 
 jobs:
   merge-dependabot:
-    name: Merge me!
-    needs:
-      - test-pull
+    name: Merge dependabot
     runs-on: ubuntu-latest
     steps:
       - name: Merge me!
