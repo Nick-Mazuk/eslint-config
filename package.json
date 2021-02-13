@@ -15,6 +15,7 @@
         "lib": "lib"
     },
     "scripts": {
+        "preinstall": "npx -y only-allow pnpm",
         "test": "echo \"Error: no test specified\" && exit 1",
         "eslint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
         "check-types": "tsc --noemit",
