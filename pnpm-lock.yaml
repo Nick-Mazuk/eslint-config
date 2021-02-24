@@ -9,7 +9,6 @@ dependencies:
   eslint-plugin-import: 2.22.1_eslint@7.20.0
   eslint-plugin-jest: 24.1.3_eslint@7.20.0+typescript@4.1.5
   eslint-plugin-jsx-a11y: 6.4.1_eslint@7.20.0
-  eslint-plugin-no-floating-promise: 1.0.2
   eslint-plugin-no-secrets: 0.6.8_eslint@7.20.0
   eslint-plugin-prettier: 3.3.1_90376326e593b529cca0740deb6f3b7f
   eslint-plugin-promise: 4.3.1
@@ -848,14 +847,6 @@ packages:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
       integrity: sha512-0rGPJBbwHoGNPU73/QCLP/vveMlM1b1Z9PponxO87jfr6tuH5ligXbDT6nHSSzBC8ovX2Z+BQu7Bk5D/Xgq9zg==
-  /eslint-plugin-no-floating-promise/1.0.2:
-    dependencies:
-      requireindex: 1.2.0
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    resolution:
-      integrity: sha512-ccbyIlvDuKJOrwypw9NWn6CIxTK+/CYARhsqMyP6cXYgIFcNFs01sGXOqq8XzOJFw02Umkj6hCnffaV6nSiqyw==
   /eslint-plugin-no-secrets/0.6.8_eslint@7.20.0:
     dependencies:
       eslint: 7.20.0
@@ -1920,12 +1911,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
-  /requireindex/1.2.0:
-    dev: false
-    engines:
-      node: '>=0.10.5'
-    resolution:
-      integrity: sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
   /reserved-words/0.1.2:
     dev: false
     resolution:
@@ -2253,7 +2238,6 @@ specifiers:
   eslint-plugin-import: '>= 2.22.0'
   eslint-plugin-jest: ^24.1.0
   eslint-plugin-jsx-a11y: '>= 6.3.1'
-  eslint-plugin-no-floating-promise: ^1.0.2
   eslint-plugin-no-secrets: '>= 0.6.8'
   eslint-plugin-prettier: '>= 3.1.4'
   eslint-plugin-promise: '>= 4.2.1'
