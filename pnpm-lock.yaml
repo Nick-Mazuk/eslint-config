@@ -7,7 +7,7 @@ dependencies:
   eslint-plugin-deprecation: 1.2.0_eslint@7.21.0+typescript@4.2.3
   eslint-plugin-eslint-comments: 3.2.0_eslint@7.21.0
   eslint-plugin-import: 2.22.1_eslint@7.21.0
-  eslint-plugin-jest: 24.1.5_eslint@7.21.0+typescript@4.2.3
+  eslint-plugin-jest: 24.1.7_eslint@7.21.0+typescript@4.2.3
   eslint-plugin-jsx-a11y: 6.4.1_eslint@7.21.0
   eslint-plugin-no-secrets: 0.8.9_eslint@7.21.0
   eslint-plugin-prettier: 3.3.1_328fff7ca4342e26ba070884b05a404a
@@ -948,7 +948,7 @@ packages:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0
     resolution:
       integrity: sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
-  /eslint-plugin-jest/24.1.5_eslint@7.21.0+typescript@4.2.3:
+  /eslint-plugin-jest/24.1.7_eslint@7.21.0+typescript@4.2.3:
     dependencies:
       '@typescript-eslint/experimental-utils': 4.16.1_eslint@7.21.0+typescript@4.2.3
       eslint: 7.21.0
@@ -959,7 +959,7 @@ packages:
       eslint: '>=5'
       typescript: '*'
     resolution:
-      integrity: sha512-FIP3lwC8EzEG+rOs1y96cOJmMVpdFNreoDJv29B5vIupVssRi8zrSY3QadogT0K3h1Y8TMxJ6ZSAzYUmFCp2hg==
+      integrity: sha512-p5Dk/Rgiv+ThxguYl96dj7Hqkow09dwSH1G5ALKdREM4pHO1V1xP0N6/myzoquD3z4h+1YPYHzM+g7Fd0xyaXg==
   /eslint-plugin-jsx-a11y/6.4.1_eslint@7.21.0:
     dependencies:
       '@babel/runtime': 7.13.9
@@ -1172,7 +1172,7 @@ packages:
       esutils: 2.0.3
       file-entry-cache: 6.0.1
       functional-red-black-tree: 1.0.1
-      glob-parent: 5.1.1
+      glob-parent: 5.1.2
       globals: 12.4.0
       ignore: 4.0.6
       import-fresh: 3.3.0
@@ -1257,7 +1257,7 @@ packages:
     dependencies:
       '@nodelib/fs.stat': 2.0.4
       '@nodelib/fs.walk': 1.2.6
-      glob-parent: 5.1.1
+      glob-parent: 5.1.2
       merge2: 1.4.1
       micromatch: 4.0.2
       picomatch: 2.2.2
@@ -1350,13 +1350,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-kWZrnVM42QCiEA2Ig1bG8zjoIMOgxWwYCEeNdwY6Tv/cOSeGpcoX4pXHfKUxNKVoArnrEr2e9srnAxxGIraS9Q==
-  /glob-parent/5.1.1:
+  /glob-parent/5.1.2:
     dependencies:
       is-glob: 4.0.1
     engines:
       node: '>= 6'
     resolution:
-      integrity: sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==
+      integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
   /glob/7.1.6:
     dependencies:
       fs.realpath: 1.0.0
@@ -2450,7 +2450,7 @@ specifiers:
   eslint-plugin-deprecation: ^1.2.0
   eslint-plugin-eslint-comments: ^3.2.0
   eslint-plugin-import: ^2.22.1
-  eslint-plugin-jest: ^24.1.5
+  eslint-plugin-jest: ^24.1.7
   eslint-plugin-jsx-a11y: ^6.4.1
   eslint-plugin-no-secrets: ^0.8.9
   eslint-plugin-prettier: ^3.3.1
