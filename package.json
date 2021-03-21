@@ -1,6 +1,6 @@
 {
     "name": "@nick-mazuk/eslint-config",
-    "version": "0.7.28",
+    "version": "0.7.29",
     "description": "an eslint config for my personal projects",
     "homepage": "https://github.com/Nick-Mazuk/eslint-config#readme",
     "bugs": {
@@ -40,7 +40,7 @@
         "eslint-plugin-react-hooks": "^4.2.0",
         "eslint-plugin-sonarjs": "^0.6.0",
         "eslint-plugin-testing-library": "^3.10.2",
-        "eslint-plugin-unicorn": "^28.0.2",
+        "eslint-plugin-unicorn": "^29.0.0",
         "eslint-plugin-unused-imports": "^1.1.0",
         "prettier": "^2.2.1"
     },
