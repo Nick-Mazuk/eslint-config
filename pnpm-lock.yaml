@@ -12,7 +12,7 @@ dependencies:
   eslint-plugin-no-secrets: 0.8.9_eslint@7.22.0
   eslint-plugin-prettier: 3.3.1_44b94358ac15c7c093df3d5421ccc811
   eslint-plugin-promise: 4.3.1
-  eslint-plugin-react: 7.23.0_eslint@7.22.0
+  eslint-plugin-react: 7.23.1_eslint@7.22.0
   eslint-plugin-react-hooks: 4.2.0_eslint@7.22.0
   eslint-plugin-sonarjs: 0.6.0_eslint@7.22.0
   eslint-plugin-testing-library: 3.10.2_eslint@7.22.0+typescript@4.2.3
@@ -1092,7 +1092,7 @@ packages:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
     resolution:
       integrity: sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ==
-  /eslint-plugin-react/7.23.0_eslint@7.22.0:
+  /eslint-plugin-react/7.23.1_eslint@7.22.0:
     dependencies:
       array-includes: 3.1.3
       array.prototype.flatmap: 1.2.4
@@ -1113,7 +1113,7 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
-      integrity: sha512-5rfsRiHKIAdhxv3NxrzE+dBC7BFsNhuErL+Fy940oD1cau55JVTnuL25sqXqD7XY0OkYCRsKEqxZVwezE5ol5w==
+      integrity: sha512-MvFGhZjI8Z4HusajmSw0ougGrq3Gs4vT/0WgwksZgf5RrLrRa2oYAw56okU4tZJl8+j7IYNuTM+2RnFEuTSdRQ==
   /eslint-plugin-sonarjs/0.6.0_eslint@7.22.0:
     dependencies:
       eslint: 7.22.0
@@ -2543,7 +2543,7 @@ specifiers:
   eslint-plugin-no-secrets: ^0.8.9
   eslint-plugin-prettier: ^3.3.1
   eslint-plugin-promise: ^4.3.1
-  eslint-plugin-react: ^7.23.0
+  eslint-plugin-react: ^7.23.1
   eslint-plugin-react-hooks: ^4.2.0
   eslint-plugin-sonarjs: ^0.6.0
   eslint-plugin-testing-library: ^3.10.2
