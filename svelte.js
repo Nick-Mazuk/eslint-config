@@ -37,7 +37,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['*.svelte'],
+            files: ['**/*.svelte', '*.svelte'],
             processor: 'svelte3/svelte3'
         }
     ],
