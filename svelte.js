@@ -4,7 +4,7 @@ module.exports = {
         commonjs: true,
         es2020: true,
     },
-    plugins: ['svelte3'],
+    plugins: ['svelte3', 'prettier-plugin-svelte'],
     extends: [require.resolve('./lib/base')],
     parserOptions: {
         ecmaFeatures: {
@@ -33,7 +33,7 @@ module.exports = {
                 embeddedLanguageFormatting: 'auto',
 
                 // svelte specific config
-                plugins: ["prettier-plugin-svelte"],
+                plugins: ['prettier-plugin-svelte'],
                 svelteStrictMode: true,
                 svelteAllowShorthand: true,
                 svelteBracketNewLine: true,
