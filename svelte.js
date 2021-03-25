@@ -4,13 +4,8 @@ module.exports = {
         commonjs: true,
         es2020: true,
     },
-    plugins: ['svelte3', 'prettier-plugin-svelte'],
+    plugins: ['svelte3'],
     extends: [require.resolve('./lib/base')],
-    parserOptions: {
-        ecmaFeatures: {
-            jsx: true,
-        },
-    },
     rules: {
         'prettier/prettier': [
             'error',
@@ -25,7 +20,6 @@ module.exports = {
                 jsxSingleQuote: true,
                 trailingComma: 'es5',
                 bracketSpacing: true,
-                jsxBracketSameLine: false,
                 arrowParens: 'always',
                 proseWrap: 'never',
                 htmlWhitespaceSensitivity: 'css',
