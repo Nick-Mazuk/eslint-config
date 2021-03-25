@@ -11,7 +11,36 @@ module.exports = {
             jsx: true,
         },
     },
-    rules: {},
+    rules: {
+        'prettier/prettier': [
+            'error',
+            {
+                // also defined in base config -- change values there if updated
+                singleQuote: true,
+                printWidth: 100,
+                tabWidth: 4,
+                useTabs: false,
+                semi: false,
+                quoteProps: 'as-needed',
+                jsxSingleQuote: true,
+                trailingComma: 'es5',
+                bracketSpacing: true,
+                jsxBracketSameLine: false,
+                arrowParens: 'always',
+                proseWrap: 'never',
+                htmlWhitespaceSensitivity: 'css',
+                endOfLine: 'lf',
+                embeddedLanguageFormatting: 'auto',
+
+                // svelte specific config
+                plugins: ["prettier-plugin-svelte"],
+                svelteStrictMode: true,
+                svelteAllowShorthand: true,
+                svelteBracketNewLine: true,
+                svelteIndentScriptAndStyle: true,
+            },
+        ],
+    },
     overrides: [
         {
             files: ['*.svelte'],
