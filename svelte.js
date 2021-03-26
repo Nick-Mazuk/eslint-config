@@ -6,9 +6,7 @@ module.exports = {
     },
     plugins: ['svelte3'],
     extends: [require.resolve('./lib/base')],
-    rules: {
-        'prettier/prettier': 'off',
-    },
+    rules: {},
     overrides: [
         {
             files: ['**/*.svelte'],
@@ -23,5 +21,20 @@ module.exports = {
     },
     parserOptions: {
         extraFileExtensions: ['.svelte'],
-    }
+    },
+    overrides: [
+        {
+            files: ["*.svelte"],
+            rules: {
+                'import/first': 'off',
+                'prettier/prettier': 'off',
+            }
+        },
+        {
+            files: ["$layout.svelte"],
+            rules: {
+                'unicorn/filename-case': 'off',
+            }
+        },
+    ]
 }
