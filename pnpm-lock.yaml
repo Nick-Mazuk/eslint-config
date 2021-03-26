@@ -20,7 +20,6 @@ dependencies:
   eslint-plugin-unicorn: 29.0.0_eslint@7.22.0
   eslint-plugin-unused-imports: 1.1.0
   prettier: 2.2.1
-  prettier-plugin-svelte: 2.2.0_prettier@2.2.1
 devDependencies:
   '@nick-mazuk/tsconfig': 0.1.1_typescript@4.2.3
   eslint: 7.22.0
@@ -2081,15 +2080,6 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
-  /prettier-plugin-svelte/2.2.0_prettier@2.2.1:
-    dependencies:
-      prettier: 2.2.1
-    dev: false
-    peerDependencies:
-      prettier: ^1.16.4 || ^2.0.0
-      svelte: ^3.2.0
-    resolution:
-      integrity: sha512-Xdmqgr71tAuMqqzNCK52/v94g/Yv7V7lz+nmbO9NEA+9ol15VV3uUHOfydMNOo3SWvFaVlBcp947ebEaMWqVfQ==
   /prettier/2.2.1:
     dev: false
     engines:
@@ -2573,5 +2563,4 @@ specifiers:
   eslint-plugin-unicorn: ^29.0.0
   eslint-plugin-unused-imports: ^1.1.0
   prettier: ^2.2.1
-  prettier-plugin-svelte: ^2.2.0
   typescript: ^4.2.3
