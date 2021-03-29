@@ -7,12 +7,6 @@ module.exports = {
     plugins: ['svelte3'],
     extends: [require.resolve('./lib/base')],
     rules: {},
-    overrides: [
-        {
-            files: ['**/*.svelte'],
-            processor: 'svelte3/svelte3',
-        }
-    ],
     ignorePatterns: [
         'public/build/',
     ],
@@ -36,5 +30,9 @@ module.exports = {
                 'unicorn/filename-case': 'off',
             }
         },
+        {
+            files: ['**/*.svelte'],
+            processor: 'svelte3/svelte3',
+        }
     ]
 }
