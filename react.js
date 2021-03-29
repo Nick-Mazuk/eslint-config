@@ -5,7 +5,13 @@ module.exports = {
         es2020: true,
     },
     plugins: ['react', 'react-hooks', 'testing-library', 'jsx-a11y'],
-    extends: [require.resolve('./lib/base'), 'plugin:react/recommended', 'plugin:testing-library/recommended', 'plugin:testing-library/react', 'plugin:jsx-a11y/strict'],
+    extends: [
+        require.resolve('./lib/base'),
+        'plugin:react/recommended',
+        'plugin:testing-library/recommended',
+        'plugin:testing-library/react',
+        'plugin:jsx-a11y/strict',
+    ],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
@@ -52,13 +58,12 @@ module.exports = {
         'react/jsx-pascal-case': 'error',
         'jsx-a11y/label-has-for': 'off',
     },
-    "overrides": [
+    overrides: [
         {
-            "files": ["*.test.tsx"],
-            "rules": {
+            files: ['*.test.tsx'],
+            rules: {
                 'no-undefined': 'off',
-            }
-        }
-    ]
-   
+            },
+        },
+    ],
 }

@@ -3,9 +3,7 @@
     "alwaysStrict": true,
     "compilerOptions": {
         "target": "es5",
-        "lib": [
-            "esnext"
-        ],
+        "lib": ["esnext"],
         "allowJs": true,
         "skipLibCheck": true,
         "strict": true,
@@ -19,11 +17,6 @@
         "resolveJsonModule": true,
         "isolatedModules": true
     },
-    "include": [
-        "**/*.ts",
-        "*.ts"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+    "include": ["**/*.ts", "*.ts"],
+    "exclude": ["node_modules"]
 }

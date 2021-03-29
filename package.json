@@ -18,7 +18,8 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "eslint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
         "check-types": "tsc --noemit",
-        "lint": "npm run eslint && npm run check-types"
+        "prettier": "prettier --write .",
+        "lint": "npm run eslint --fix && npm run check-types"
     },
     "author": "",
     "license": "MIT",
@@ -42,8 +43,7 @@
         "eslint-plugin-svelte3": "^3.1.2",
         "eslint-plugin-testing-library": "^3.10.2",
         "eslint-plugin-unicorn": "^29.0.0",
-        "eslint-plugin-unused-imports": "^1.1.0",
-        "prettier": "^2.2.1"
+        "eslint-plugin-unused-imports": "^1.1.0"
     },
     "peerDependencies": {
         "eslint": ">= 7.23.0",
@@ -52,6 +52,7 @@
     "devDependencies": {
         "@nick-mazuk/tsconfig": "^0.1.1",
         "eslint": "^7.23.0",
+        "prettier": "^2.2.1",
         "typescript": "^4.2.3"
     }
 }

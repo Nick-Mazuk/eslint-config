@@ -14,9 +14,7 @@ Then, create a `.eslintrc` file in the root of your project with
 
 ```json
 {
-    "extends": [
-        "@nick-mazuk/eslint-config"
-    ]
+    "extends": ["@nick-mazuk/eslint-config"]
 }
 ```
 
@@ -42,18 +40,16 @@ npm run lint
 
 This package has configs for different scenarios (more coming).
 
-- **React**: use `@nick-mazuk/eslint-config/react`
-- **NextJS**: use `@nick-mazuk/eslint-config/next`
-- **Cypress**: use `@nick-mazuk/eslint-config/cypress`
-- **Firebase functions**: use `@nick-mazuk/eslint-config/firebase-functions`
+-   **React**: use `@nick-mazuk/eslint-config/react`
+-   **NextJS**: use `@nick-mazuk/eslint-config/next`
+-   **Cypress**: use `@nick-mazuk/eslint-config/cypress`
+-   **Firebase functions**: use `@nick-mazuk/eslint-config/firebase-functions`
 
 When using a more specific config, the base config is not needed. For instance, with NextJS, this is all that's required:
 
 ```json
 {
-    "extends": [
-        "@nick-mazuk/eslint-config/next"
-    ]
+    "extends": ["@nick-mazuk/eslint-config/next"]
 }
 ```
 
@@ -69,7 +65,7 @@ This is the easiest way to ensure ESLint is run every time you save a file, and 
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "eslint.run": "onType",
+    "eslint.run": "onType"
 }
 ```
 
@@ -82,7 +78,6 @@ This config has Prettier built-in. If you use Prettier with your code editor or 
 > **Rationale**: this ESLint config is highly opinionated and is a living config. As best practices evolve, this config will evolve. Since Prettier is 100% fixable, that means that your code will always follow this config and therefore always follow best practices. If you override the formatting with Prettier, you forgo any future updates in regard to Prettier formatting.
 
 **Note**: If using the Svelte config, you need to setup Prettier manually. This is because the plugin `prettier-plugin-svelte` (which is needed to parse Svelte) [does not work with ESLint](https://github.com/sveltejs/prettier-plugin-svelte/issues/57).
-
 
 ## Use without TypeScript
 

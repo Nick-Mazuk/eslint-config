@@ -1,7 +1,5 @@
 {
-    "extends": [
-        "config:base"
-    ],
+    "extends": ["config:base"],
     "automerge": true,
     "automergeType": "branch",
     "requiredStatusChecks": null,
@@ -12,9 +10,5 @@
     "bumpVersion": "patch",
     "prConcurrentLimit": 2,
     "dependencyDashboard": true,
-    "schedule": [
-        "after 10pm every weekday",
-        "before 5am every weekday",
-        "every weekend"
-    ]
+    "schedule": ["after 10pm every weekday", "before 5am every weekday", "every weekend"]
 }
