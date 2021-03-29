@@ -21,17 +21,15 @@ module.exports = {
                 'import/first': 'off',
                 'prettier/prettier': 'off',
                 'import/no-mutable-exports': 'off',
+                'no-use-before-define': 'off',
             },
+            processor: 'svelte3/svelte3',
         },
         {
             files: ['$layout.svelte'],
             rules: {
                 'unicorn/filename-case': 'off',
             },
-        },
-        {
-            files: ['**/*.svelte'],
-            processor: 'svelte3/svelte3',
         },
     ],
 }
