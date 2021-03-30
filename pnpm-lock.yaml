@@ -18,7 +18,7 @@ dependencies:
   eslint-plugin-svelte3: 3.1.2_eslint@7.23.0
   eslint-plugin-testing-library: 3.10.2_eslint@7.23.0+typescript@4.2.3
   eslint-plugin-unicorn: 29.0.0_eslint@7.23.0
-  eslint-plugin-unused-imports: 1.1.0
+  eslint-plugin-unused-imports: 1.1.1
 devDependencies:
   '@nick-mazuk/tsconfig': 0.1.1_typescript@4.2.3
   eslint: 7.23.0
@@ -1169,14 +1169,14 @@ packages:
       eslint: '>=7.20.0'
     resolution:
       integrity: sha512-R9jGLKb2p6LuOixviByGlH2mkfY72EBELXAPeUufveebN0M2Woa7B7dUO3gN2xPn/+eGjrIm4I2u7dDtr9G4iA==
-  /eslint-plugin-unused-imports/1.1.0:
+  /eslint-plugin-unused-imports/1.1.1:
     dependencies:
       eslint-rule-composer: 0.3.0
     dev: false
     engines:
       node: '>=0.10.0'
     resolution:
-      integrity: sha512-4SLYlkCwAbudvKDKZqn/3KjHlKAoorTxnP7AkAMMXkz59pQCBUjKPEaDv5pQ7fOyfDvLPCJKLowCcTl6HXcCuA==
+      integrity: sha512-EApvRx9Q3XQI96Tg7xPPqY6OuOy95wWMXAtc8RrwdIRk9bv8vkJKwOVoE4HeWJOQhHeHcI8lUbOqmup/PxjfOw==
   /eslint-rule-composer/0.3.0:
     dev: false
     engines:
@@ -2568,6 +2568,6 @@ specifiers:
   eslint-plugin-svelte3: ^3.1.2
   eslint-plugin-testing-library: ^3.10.2
   eslint-plugin-unicorn: ^29.0.0
-  eslint-plugin-unused-imports: ^1.1.0
+  eslint-plugin-unused-imports: ^1.1.1
   prettier: ^2.2.1
   typescript: ^4.2.3
