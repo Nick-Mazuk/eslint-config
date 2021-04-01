@@ -23,6 +23,7 @@ module.exports = {
                 'import/no-mutable-exports': 'off',
                 'no-use-before-define': 'off',
                 '@typescript-eslint/no-unnecessary-condition': 'off',
+                'import/order': 'off',
             },
             processor: 'svelte3/svelte3',
         },
