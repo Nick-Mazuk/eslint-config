@@ -33,5 +33,12 @@ module.exports = {
                 'unicorn/filename-case': 'off',
             },
         },
+        {
+            files: ['$error.svelte'],
+            rules: {
+                'unicorn/filename-case': 'off',
+                'init-declarations': 'off',
+            },
+        },
     ],
 }
