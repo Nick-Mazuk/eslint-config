@@ -1,6 +1,6 @@
 {
     "name": "@nick-mazuk/eslint-config",
-    "version": "0.7.53",
+    "version": "0.7.54",
     "description": "an eslint config for my personal projects",
     "homepage": "https://github.com/Nick-Mazuk/eslint-config#readme",
     "bugs": {
@@ -47,12 +47,12 @@
     },
     "peerDependencies": {
         "eslint": ">= 7.23.0",
-        "typescript": ">= 4.2.3"
+        "typescript": ">= 4.2.4"
     },
     "devDependencies": {
         "@nick-mazuk/tsconfig": "^0.1.1",
         "eslint": "^7.23.0",
         "prettier": "^2.2.1",
-        "typescript": "^4.2.3"
+        "typescript": "^4.2.4"
     }
 }
