@@ -15,7 +15,7 @@ specifiers:
   eslint-plugin-jsx-a11y: ^6.4.1
   eslint-plugin-no-secrets: ^0.8.9
   eslint-plugin-prettier: ^3.3.1
-  eslint-plugin-promise: ^4.3.1
+  eslint-plugin-promise: ^5.1.0
   eslint-plugin-react: ^7.23.2
   eslint-plugin-react-hooks: ^4.2.0
   eslint-plugin-sonarjs: ^0.6.0
@@ -39,7 +39,7 @@ dependencies:
   eslint-plugin-jsx-a11y: 6.4.1_eslint@7.24.0
   eslint-plugin-no-secrets: 0.8.9_eslint@7.24.0
   eslint-plugin-prettier: 3.3.1_b9c73a8f62f15c88eece82c557486b0e
-  eslint-plugin-promise: 4.3.1
+  eslint-plugin-promise: 5.1.0_eslint@7.24.0
   eslint-plugin-react: 7.23.2_eslint@7.24.0
   eslint-plugin-react-hooks: 4.2.0_eslint@7.24.0
   eslint-plugin-sonarjs: 0.6.0_eslint@7.24.0
@@ -1071,9 +1071,13 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: false
 
-  /eslint-plugin-promise/4.3.1:
-    resolution: {integrity: sha512-bY2sGqyptzFBDLh/GMbAxfdJC+b0f23ME63FOE4+Jao0oZ3E1LEwFtWJX/1pGMJLiTtrSSern2CRM/g+dfc0eQ==}
-    engines: {node: '>=6'}
+  /eslint-plugin-promise/5.1.0_eslint@7.24.0:
+    resolution: {integrity: sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==}
+    engines: {node: ^10.12.0 || >=12.0.0}
+    peerDependencies:
+      eslint: ^7.0.0
+    dependencies:
+      eslint: 7.24.0
     dev: false
 
   /eslint-plugin-react-hooks/4.2.0_eslint@7.24.0:
