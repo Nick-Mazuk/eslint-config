@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-react: ^7.23.2
   eslint-plugin-react-hooks: ^4.2.0
   eslint-plugin-sonarjs: ^0.7.0
-  eslint-plugin-svelte3: ^3.1.2
+  eslint-plugin-svelte3: ^3.2.0
   eslint-plugin-testing-library: ^4.1.1
   eslint-plugin-unicorn: ^30.0.0
   eslint-plugin-unused-imports: ^1.1.1
@@ -43,7 +43,7 @@ dependencies:
   eslint-plugin-react: 7.23.2_eslint@7.25.0
   eslint-plugin-react-hooks: 4.2.0_eslint@7.25.0
   eslint-plugin-sonarjs: 0.7.0_eslint@7.25.0
-  eslint-plugin-svelte3: 3.1.2_eslint@7.25.0
+  eslint-plugin-svelte3: 3.2.0_eslint@7.25.0
   eslint-plugin-testing-library: 4.1.1_eslint@7.25.0+typescript@4.2.4
   eslint-plugin-unicorn: 30.0.0_eslint@7.25.0
   eslint-plugin-unused-imports: 1.1.1
@@ -1059,8 +1059,8 @@ packages:
       eslint: 7.25.0
     dev: false
 
-  /eslint-plugin-svelte3/3.1.2_eslint@7.25.0:
-    resolution: {integrity: sha512-+aGgYFC/yjhGXmBevzwICFVif8tu++C9/lRg8cE6TTS45Hw8qZ6t5wItSXVNPqnxJ212ik+bad1F0Y9A3Swo0Q==}
+  /eslint-plugin-svelte3/3.2.0_eslint@7.25.0:
+    resolution: {integrity: sha512-qdWB1QN21dEozsJFdR8XlEhMnsS6aKHjsXWuNmchYwxoet5I6QdCr1Xcq62++IzRBMCNCeH4waXqSOAdqrZzgA==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: '>=6.0.0'
