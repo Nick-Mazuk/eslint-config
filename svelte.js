@@ -18,6 +18,7 @@ module.exports = {
         {
             files: ['*.svelte'],
             rules: {
+                'no-undef-init': 'off',
                 'init-declarations': 'off',
                 'import/first': 'off',
                 'prettier/prettier': 'off',
