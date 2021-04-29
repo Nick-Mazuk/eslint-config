@@ -18,6 +18,7 @@ module.exports = {
         {
             files: ['*.svelte'],
             rules: {
+                'init-declarations': 'off',
                 'import/first': 'off',
                 'prettier/prettier': 'off',
                 'import/no-mutable-exports': 'off',
@@ -28,16 +29,9 @@ module.exports = {
             processor: 'svelte3/svelte3',
         },
         {
-            files: ['$layout.svelte'],
+            files: ['$layout.svelte', '$error.svelte'],
             rules: {
                 'unicorn/filename-case': 'off',
-            },
-        },
-        {
-            files: ['$error.svelte'],
-            rules: {
-                'unicorn/filename-case': 'off',
-                'init-declarations': 'off',
             },
         },
     ],
