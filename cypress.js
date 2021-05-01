@@ -11,5 +11,6 @@ module.exports = {
         'import/unambiguous': 'off',
         'promise/catch-or-return': 'off',
         'promise/always-return': 'off',
+        '@typescript-eslint/no-floating-promises': 'off',
     },
 }
