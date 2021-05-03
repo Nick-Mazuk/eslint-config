@@ -1,14 +1,14 @@
 module.exports = {
     plugins: ['cypress', 'chai-friendly'],
-    extends: [
-        require.resolve('./lib/base'),
-        'plugin:cypress/recommended',
-        'plugin:chai-friendly/recommended',
-    ],
     overrides: [
         {
             files: ['*.test.ts', 'cypress/**/*.ts'],
             rules: {
+                'no-unused-expressions': 'off',
+                'chai-friendly/no-unused-expressions': 'error',
+                'cypress/no-assigning-return-values': 'error',
+                'cypress/no-unnecessary-waiting': 'error',
+                'cypress/no-async-tests': 'error',
                 'cypress/assertion-before-screenshot': 'error',
                 'cypress/no-force': 'error',
                 'import/unambiguous': 'off',
