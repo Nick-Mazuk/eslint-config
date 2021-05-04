@@ -17,5 +17,11 @@ module.exports = {
                 '@typescript-eslint/no-floating-promises': 'off',
             },
         },
+        {
+            files: ['*.test.ts'],
+            rules: {
+                'max-lines-per-function': 'warn',
+            },
+        },
     ],
 }
