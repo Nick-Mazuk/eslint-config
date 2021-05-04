@@ -7,7 +7,7 @@ specifiers:
   eslint: ^7.25.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-chai-friendly: ^0.6.0
-  eslint-plugin-cypress: ^2.11.2
+  eslint-plugin-cypress: ^2.11.3
   eslint-plugin-deprecation: ^1.2.0
   eslint-plugin-eslint-comments: ^3.2.0
   eslint-plugin-import: ^2.22.1
@@ -31,7 +31,7 @@ dependencies:
   '@typescript-eslint/parser': 4.22.0_eslint@7.25.0+typescript@4.2.4
   eslint-config-prettier: 8.3.0_eslint@7.25.0
   eslint-plugin-chai-friendly: 0.6.0_eslint@7.25.0
-  eslint-plugin-cypress: 2.11.2_eslint@7.25.0
+  eslint-plugin-cypress: 2.11.3_eslint@7.25.0
   eslint-plugin-deprecation: 1.2.0_eslint@7.25.0+typescript@4.2.4
   eslint-plugin-eslint-comments: 3.2.0_eslint@7.25.0
   eslint-plugin-import: 2.22.1_eslint@7.25.0
@@ -895,8 +895,8 @@ packages:
       eslint: 7.25.0
     dev: false
 
-  /eslint-plugin-cypress/2.11.2_eslint@7.25.0:
-    resolution: {integrity: sha512-1SergF1sGbVhsf7MYfOLiBhdOg6wqyeV9pXUAIDIffYTGMN3dTBQS9nFAzhLsHhO+Bn0GaVM1Ecm71XUidQ7VA==}
+  /eslint-plugin-cypress/2.11.3_eslint@7.25.0:
+    resolution: {integrity: sha512-hOoAid+XNFtpvOzZSNWP5LDrQBEJwbZwjib4XJ1KcRYKjeVj0mAmPmucG4Egli4j/aruv+Ow/acacoloWWCl9Q==}
     peerDependencies:
       eslint: '>= 3.2.1'
     dependencies:
