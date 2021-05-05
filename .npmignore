@@ -2,3 +2,13 @@ node_modules
 
 .eslintrc
 .eslintignore
+.prettierrc
+.prettierignore
+.github
+.vscode
+pnpm-lock.yaml
+release.config.js
+renovate.json
+this-is-to-lease-the-ts-parser.ts
+tsconfig.json
+.gitattributes
