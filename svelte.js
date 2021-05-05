@@ -40,4 +40,8 @@ module.exports = {
             },
         },
     ],
+    globals: {
+        svelte: 'readonly',
+        NodeJS: 'readonly',
+    },
 }
