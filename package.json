@@ -1,6 +1,6 @@
 {
     "name": "@nick-mazuk/eslint-config",
-    "version": "0.8.7",
+    "version": "0.8.8",
     "description": "an eslint config for my personal projects",
     "homepage": "https://github.com/Nick-Mazuk/eslint-config#readme",
     "bugs": {
@@ -24,8 +24,8 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.22.0",
-        "@typescript-eslint/parser": "^4.22.0",
+        "@typescript-eslint/eslint-plugin": "^4.22.1",
+        "@typescript-eslint/parser": "^4.22.1",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-chai-friendly": "^0.6.0",
         "eslint-plugin-cypress": "^2.11.3",
