@@ -1,3 +1,10 @@
+## [0.8.9](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.8...v0.8.9) (2021-05-13)
+
+
+### Bug Fixes
+
+* allow "temp" abbreviation ([5ce983a](https://github.com/Nick-Mazuk/eslint-config/commit/5ce983a1dcb126ac8f4a3c3038f0d2e0040e9276))
+
 ## [0.8.8](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.7...v0.8.8) (2021-05-13)
 
 
