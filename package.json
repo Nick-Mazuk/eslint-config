@@ -27,7 +27,7 @@
         "@typescript-eslint/eslint-plugin": "^4.22.1",
         "@typescript-eslint/parser": "^4.22.1",
         "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-chai-friendly": "^0.6.0",
+        "eslint-plugin-chai-friendly": "^0.7.0",
         "eslint-plugin-cypress": "^2.11.3",
         "eslint-plugin-deprecation": "^1.2.1",
         "eslint-plugin-eslint-comments": "^3.2.0",
@@ -42,7 +42,7 @@
         "eslint-plugin-sonarjs": "^0.7.0",
         "eslint-plugin-svelte3": "^3.2.0",
         "eslint-plugin-testing-library": "^4.2.0",
-        "eslint-plugin-unicorn": "^31.0.0",
+        "eslint-plugin-unicorn": "^32.0.0",
         "eslint-plugin-unused-imports": "^1.1.1"
     },
     "peerDependencies": {
