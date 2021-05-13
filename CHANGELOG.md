@@ -1,3 +1,10 @@
+## [0.8.8](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.7...v0.8.8) (2021-05-13)
+
+
+### Bug Fixes
+
+* allow "prop" abbreviation ([4eeb93d](https://github.com/Nick-Mazuk/eslint-config/commit/4eeb93d8d80e689092c7ac4c538add9e4debf66f))
+
 ## [0.8.7](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.6...v0.8.7) (2021-05-10)
 
 
