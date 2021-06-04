@@ -1,3 +1,10 @@
+## [0.8.10](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.9...v0.8.10) (2021-06-02)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump dependency eslint-plugin-unicorn to v33 ([ec52c67](https://github.com/Nick-Mazuk/eslint-config/commit/ec52c67c9d66175a6f3d71477139567fade41b26))
+
 ## [0.8.9](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.8...v0.8.9) (2021-05-13)
 
 
