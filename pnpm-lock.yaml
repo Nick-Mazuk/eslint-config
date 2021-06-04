@@ -51,6 +51,7 @@ dependencies:
   eslint-plugin-testing-library: 4.6.0_eslint@7.27.0+typescript@4.3.2
   eslint-plugin-unicorn: 33.0.0_eslint@7.27.0
   eslint-plugin-unused-imports: 1.1.1
+  prettier: 2.3.0
 
 devDependencies:
   '@nick-mazuk/semantic-release-config': 1.1.3_6088b0c9747c8b8937bf34b6240a6fc3
@@ -58,7 +59,6 @@ devDependencies:
   '@semantic-release/changelog': 5.0.1_semantic-release@17.4.3
   '@semantic-release/git': 9.0.0_semantic-release@17.4.3
   eslint: 7.27.0
-  prettier: 2.3.0
   semantic-release: 17.4.3
   typescript: 4.3.2
 
@@ -2985,7 +2985,7 @@ packages:
     resolution: {integrity: sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==}
     engines: {node: '>=10.13.0'}
     hasBin: true
-    dev: true
+    dev: false
 
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
