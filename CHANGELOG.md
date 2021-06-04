@@ -1,3 +1,10 @@
+## [0.8.11](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.10...v0.8.11) (2021-06-04)
+
+
+### Bug Fixes
+
+* add pretter to dependencies ([8cf84f5](https://github.com/Nick-Mazuk/eslint-config/commit/8cf84f592bf8f9815ea3672b672692aaa3923636))
+
 ## [0.8.10](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.9...v0.8.10) (2021-06-02)
 
 
