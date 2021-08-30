@@ -1,3 +1,10 @@
+## [0.8.16](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.15...v0.8.16) (2021-08-30)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump dependency eslint-plugin-prettier to v4 ([3d64979](https://github.com/Nick-Mazuk/eslint-config/commit/3d6497973190c63e6fef1ad268c2f6d54182e605))
+
 ## [0.8.15](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.14...v0.8.15) (2021-08-13)
 
 
