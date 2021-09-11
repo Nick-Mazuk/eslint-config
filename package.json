@@ -42,7 +42,7 @@
         "eslint-plugin-sonarjs": "^0.10.0",
         "eslint-plugin-svelte3": "^3.2.0",
         "eslint-plugin-testing-library": "^4.2.0",
-        "eslint-plugin-unicorn": "^35.0.0",
+        "eslint-plugin-unicorn": "^36.0.0",
         "eslint-plugin-unused-imports": "^1.1.1",
         "prettier": "^2.2.1"
     },
