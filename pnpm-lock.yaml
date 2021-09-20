@@ -4,7 +4,7 @@ specifiers:
   '@nick-mazuk/semantic-release-config': ^1.1.3
   '@nick-mazuk/tsconfig': ^0.1.1
   '@semantic-release/changelog': ^5.0.1
-  '@semantic-release/git': ^9.0.0
+  '@semantic-release/git': ^10.0.0
   '@typescript-eslint/eslint-plugin': ^4.22.1
   '@typescript-eslint/parser': ^4.22.1
   eslint: ^7.25.0
@@ -54,10 +54,10 @@ dependencies:
   prettier: 2.4.1
 
 devDependencies:
-  '@nick-mazuk/semantic-release-config': 1.1.3_7229aa80cbeb240d025d7c520c3fc502
+  '@nick-mazuk/semantic-release-config': 1.1.3_961abe48811400cf7d0359ccf10f82d3
   '@nick-mazuk/tsconfig': 0.1.1_typescript@4.4.3
   '@semantic-release/changelog': 5.0.1_semantic-release@18.0.0
-  '@semantic-release/git': 9.0.1_semantic-release@18.0.0
+  '@semantic-release/git': 10.0.0_semantic-release@18.0.0
   eslint: 7.32.0
   semantic-release: 18.0.0
   typescript: 4.4.3
@@ -341,7 +341,7 @@ packages:
     resolution: {integrity: sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==}
     dev: true
 
-  /@nick-mazuk/semantic-release-config/1.1.3_7229aa80cbeb240d025d7c520c3fc502:
+  /@nick-mazuk/semantic-release-config/1.1.3_961abe48811400cf7d0359ccf10f82d3:
     resolution: {integrity: sha512-NV6Smaf+fRFQa5yaHzj1BqlXwHYIVv7uW5uE79IbtRzZQQgBDn9sk5AmGNkIyGbLGwjtDw6yzJmR3riGx9PEqw==}
     peerDependencies:
       '@semantic-release/changelog': ^5.0.1
@@ -349,7 +349,7 @@ packages:
       semantic-release: ^17.4.2
     dependencies:
       '@semantic-release/changelog': 5.0.1_semantic-release@18.0.0
-      '@semantic-release/git': 9.0.1_semantic-release@18.0.0
+      '@semantic-release/git': 10.0.0_semantic-release@18.0.0
       semantic-release: 18.0.0
     dev: true
 
@@ -518,11 +518,11 @@ packages:
     engines: {node: '>=14.17'}
     dev: true
 
-  /@semantic-release/git/9.0.1_semantic-release@18.0.0:
-    resolution: {integrity: sha512-75P03s9v0xfrH9ffhDVWRIX0fgWBvJMmXhUU0rMTKYz47oMXU5O95M/ocgIKnVJlWZYoC+LpIe4Ye6ev8CrlUQ==}
-    engines: {node: '>=10.18'}
+  /@semantic-release/git/10.0.0_semantic-release@18.0.0:
+    resolution: {integrity: sha512-/BljvngXJzwbFFJouxHHvSzAhi5iaucF7l0kQPszD4m7Y79+FHyvQl5Q/HK7T/e8MIwU9hz321KjOZn9yfSpPg==}
+    engines: {node: '>=14.17'}
     peerDependencies:
-      semantic-release: '>=16.0.0 <18.0.0'
+      semantic-release: '>=18.0.0'
     dependencies:
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.1.0
