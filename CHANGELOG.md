@@ -1,3 +1,10 @@
+## [0.8.18](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.17...v0.8.18) (2021-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump dependency eslint-plugin-jest to v25 ([09efaa3](https://github.com/Nick-Mazuk/eslint-config/commit/09efaa3ff8080c1f8ef3e1fa5f50e0860b177822))
+
 ## [0.8.17](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.16...v0.8.17) (2021-09-11)
 
 
