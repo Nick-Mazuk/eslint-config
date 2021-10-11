@@ -1,3 +1,10 @@
+## [0.8.20](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.19...v0.8.20) (2021-10-11)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump typescript-eslint monorepo to v5 ([6b9dc8f](https://github.com/Nick-Mazuk/eslint-config/commit/6b9dc8fb69b9f7e779c3fb61ae89252bc4800603))
+
 ## [0.8.19](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.18...v0.8.19) (2021-10-11)
 
 
