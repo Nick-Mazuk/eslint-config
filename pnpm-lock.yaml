@@ -558,13 +558,13 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/npm/8.0.0_semantic-release@18.0.0:
-    resolution: {integrity: sha512-MAlynjIaN5XwBEzsq3xbZ8I+riD9zhLvpPqGCPaZ0j/ySbR0Sg3YG1MYv03fC1aygPFFC5RwefMxKids9llvDg==}
+  /@semantic-release/npm/8.0.1_semantic-release@18.0.0:
+    resolution: {integrity: sha512-7aVqKeBfsny2sFWQe6tsIH3lcWZH3JMVJQaOhMgxRiKUqNZZjdPE73bwoX+9+AdhKAnXPdgoVPsZwTotE95VIA==}
     engines: {node: '>=14.17'}
     peerDependencies:
-      semantic-release: '>=18.0.0-beta.1'
+      semantic-release: '>=18.0.0'
     dependencies:
-      '@semantic-release/error': 2.2.0
+      '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       execa: 5.1.1
       fs-extra: 10.0.0
@@ -3334,7 +3334,7 @@ packages:
       '@semantic-release/commit-analyzer': 9.0.1_semantic-release@18.0.0
       '@semantic-release/error': 3.0.0
       '@semantic-release/github': 8.0.1_semantic-release@18.0.0
-      '@semantic-release/npm': 8.0.0_semantic-release@18.0.0
+      '@semantic-release/npm': 8.0.1_semantic-release@18.0.0
       '@semantic-release/release-notes-generator': 10.0.2_semantic-release@18.0.0
       aggregate-error: 3.1.0
       cosmiconfig: 7.0.1
