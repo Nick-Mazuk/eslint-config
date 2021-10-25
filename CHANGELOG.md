@@ -1,3 +1,10 @@
+## [0.8.21](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.20...v0.8.21) (2021-10-25)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump dependency eslint-plugin-testing-library to v5 ([1c72266](https://github.com/Nick-Mazuk/eslint-config/commit/1c722668953f75143ce2b42a73e4f350721e5c52))
+
 ## [0.8.20](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.19...v0.8.20) (2021-10-11)
 
 
