@@ -24,7 +24,7 @@ specifiers:
   eslint-plugin-sonarjs: ^0.10.0
   eslint-plugin-svelte3: ^3.2.0
   eslint-plugin-testing-library: ^5.0.0
-  eslint-plugin-unicorn: ^37.0.0
+  eslint-plugin-unicorn: ^38.0.0
   eslint-plugin-unused-imports: ^1.1.1
   prettier: ^2.2.1
   semantic-release: ^18.0.0
@@ -49,7 +49,7 @@ dependencies:
   eslint-plugin-sonarjs: 0.10.0_eslint@8.1.0
   eslint-plugin-svelte3: 3.2.1_eslint@8.1.0
   eslint-plugin-testing-library: 5.0.0_eslint@8.1.0+typescript@4.4.4
-  eslint-plugin-unicorn: 37.0.1_eslint@8.1.0
+  eslint-plugin-unicorn: 38.0.0_eslint@8.1.0
   eslint-plugin-unused-imports: 1.1.5_4cbfeb9543c7a15a90eaae6e9058a4ff
   prettier: 2.4.1
 
@@ -1619,8 +1619,8 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-unicorn/37.0.1_eslint@8.1.0:
-    resolution: {integrity: sha512-E1jq5u9ojnadisJcPi+hMXTGSiIzkIUMDvWsBudsCGXvKUB2aNSU2TcfyW2/jAS5A4ryBXfzxLykMxX1EdluSQ==}
+  /eslint-plugin-unicorn/38.0.0_eslint@8.1.0:
+    resolution: {integrity: sha512-8Ut3S0RTkk+9T90RmIi1NqiJ4AVCreaMjHaIXxO/IgYCNp+zxixj8Q3eXikf8RZi4vwytxefVqx6mU5LSEEx2w==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=7.32.0'
