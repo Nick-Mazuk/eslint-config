@@ -25,7 +25,7 @@ specifiers:
   eslint-plugin-svelte3: ^3.2.0
   eslint-plugin-testing-library: ^5.0.0
   eslint-plugin-unicorn: ^38.0.0
-  eslint-plugin-unused-imports: ^1.1.1
+  eslint-plugin-unused-imports: ^2.0.0
   prettier: ^2.2.1
   semantic-release: ^18.0.0
   typescript: ^4.2.4
@@ -50,7 +50,7 @@ dependencies:
   eslint-plugin-svelte3: 3.2.1_eslint@8.2.0
   eslint-plugin-testing-library: 5.0.0_eslint@8.2.0+typescript@4.4.4
   eslint-plugin-unicorn: 38.0.0_eslint@8.2.0
-  eslint-plugin-unused-imports: 1.1.5_dfbdcbfae4317c7bb74bc389816fbe21
+  eslint-plugin-unused-imports: 2.0.0_dfbdcbfae4317c7bb74bc389816fbe21
   prettier: 2.4.1
 
 devDependencies:
@@ -1642,12 +1642,12 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-unused-imports/1.1.5_dfbdcbfae4317c7bb74bc389816fbe21:
-    resolution: {integrity: sha512-TeV8l8zkLQrq9LBeYFCQmYVIXMjfHgdRQLw7dEZp4ZB3PeR10Y5Uif11heCsHRmhdRIYMoewr1d9ouUHLbLHew==}
-    engines: {node: ^10.12.0 || >=12.0.0}
+  /eslint-plugin-unused-imports/2.0.0_dfbdcbfae4317c7bb74bc389816fbe21:
+    resolution: {integrity: sha512-3APeS/tQlTrFa167ThtP0Zm0vctjr4M44HMpeg1P4bK6wItarumq0Ma82xorMKdFsWpphQBlRPzw/pxiVELX1A==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': ^4.14.2
-      eslint: ^6.0.0 || ^7.0.0
+      '@typescript-eslint/eslint-plugin': ^5.0.0
+      eslint: ^8.0.0
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
         optional: true
