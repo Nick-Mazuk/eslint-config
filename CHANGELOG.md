@@ -1,3 +1,10 @@
+## [0.8.23](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.22...v0.8.23) (2021-11-10)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump dependency eslint-plugin-unused-imports to v2 ([000cf00](https://github.com/Nick-Mazuk/eslint-config/commit/000cf008cb1830ebc411c1879bdf23bf029188da))
+
 ## [0.8.22](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.21...v0.8.22) (2021-11-04)
 
 
