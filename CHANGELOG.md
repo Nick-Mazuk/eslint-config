@@ -1,3 +1,10 @@
+## [0.8.26](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.25...v0.8.26) (2021-12-18)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump dependency eslint-plugin-promise to v6 ([8a5dc96](https://github.com/Nick-Mazuk/eslint-config/commit/8a5dc96f6c5121104cd597a5cbf691289af3b5c2))
+
 ## [0.8.25](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.24...v0.8.25) (2021-12-01)
 
 
