@@ -1,3 +1,10 @@
+## [0.8.28](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.27...v0.8.28) (2022-01-24)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump dependency eslint-plugin-jest to v26 ([3e84ae8](https://github.com/Nick-Mazuk/eslint-config/commit/3e84ae88704ea0fcf2a2ecda7a9053f306190aab))
+
 ## [0.8.27](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.26...v0.8.27) (2021-12-31)
 
 
