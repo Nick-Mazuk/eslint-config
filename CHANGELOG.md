@@ -1,3 +1,10 @@
+## [0.8.31](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.30...v0.8.31) (2022-03-29)
+
+
+### Bug Fixes
+
+* **deps:** bump: bump dependency eslint-plugin-sonarjs to ^0.13.0 ([b4d0519](https://github.com/Nick-Mazuk/eslint-config/commit/b4d0519bc4acbd47fd4b19bf82866969e6bb7d2f))
+
 ## [0.8.30](https://github.com/Nick-Mazuk/eslint-config/compare/v0.8.29...v0.8.30) (2022-02-18)
 
 
