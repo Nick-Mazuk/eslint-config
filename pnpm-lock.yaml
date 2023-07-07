@@ -26,7 +26,7 @@ specifiers:
   eslint-plugin-testing-library: ^5.0.0
   eslint-plugin-unicorn: ^42.0.0
   eslint-plugin-unused-imports: ^2.0.0
-  prettier: ^2.2.1
+  prettier: ^3.0.0
   semantic-release: ^19.0.0
   typescript: ^4.2.4
 
@@ -42,7 +42,7 @@ dependencies:
   eslint-plugin-jest: 26.9.0_77hzc3m4z2zccvz4y3m32ao6om
   eslint-plugin-jsx-a11y: 6.7.1_eslint@8.36.0
   eslint-plugin-no-secrets: 0.8.9_eslint@8.36.0
-  eslint-plugin-prettier: 4.2.1_eqzx3hpkgx5nnvxls3azrcc7dm
+  eslint-plugin-prettier: 4.2.1_rxerbuqskxpi4erqa65tlt5nzm
   eslint-plugin-promise: 6.1.1_eslint@8.36.0
   eslint-plugin-react: 7.32.2_eslint@8.36.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.36.0
@@ -51,7 +51,7 @@ dependencies:
   eslint-plugin-testing-library: 5.10.2_vgl77cfdswitgr47lm5swmv43m
   eslint-plugin-unicorn: 42.0.0_eslint@8.36.0
   eslint-plugin-unused-imports: 2.0.0_dchlkxfdm6cbfc25bfo3oeha6e
-  prettier: 2.8.4
+  prettier: 3.0.0
 
 devDependencies:
   '@nick-mazuk/semantic-release-config': 1.1.3_wgy2czkkblme3v2fcwmhd7f3wi
@@ -1434,7 +1434,7 @@ packages:
       eslint: 8.36.0
     dev: false
 
-  /eslint-plugin-prettier/4.2.1_eqzx3hpkgx5nnvxls3azrcc7dm:
+  /eslint-plugin-prettier/4.2.1_rxerbuqskxpi4erqa65tlt5nzm:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1447,7 +1447,7 @@ packages:
     dependencies:
       eslint: 8.36.0
       eslint-config-prettier: 8.7.0_eslint@8.36.0
-      prettier: 2.8.4
+      prettier: 3.0.0
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -2979,9 +2979,9 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
-    engines: {node: '>=10.13.0'}
+  /prettier/3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: false
 
